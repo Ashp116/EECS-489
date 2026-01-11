@@ -54,8 +54,8 @@ The goals for this course are:
 | **Week 1** | **Course Overview** | | |
 | Wed <br> Jan 07 | Introduction ([ppt](https://drive.google.com/file/d/1BHkOV02QfuHHvOLZ_NyRPm888gy1cBo5/view)) | | |
 | **Week 2** | **History of the Internet** | | |
-| Mon <br> Jan 12 | | | |
-| Wed <br> Jan 14 | | | |
+| Mon <br> Jan 12 | A Brief History of the Internet ([ppt](https://drive.google.com/file/d/1S-oV_BZwsnvSMfIWXvgodAiZ-WpXEeK-/view)) | | [Leiner et al. (1999). A Brief History of the Internet](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/brief-history.pdf) (Optional) |
+| Wed <br> Jan 14 | [AWS Academy](https://awsacademy.instructure.com/courses/151633) and [Assignment 0](assignments) Walkthrough | | |
 | **Week 3** | **Network Building Blocks** | | |
 | Mon <br> Jan 19 | *Martin Luther King, Jr. Day* <br> No Class | | |
 | Wed <br> Jan 21 | | | |
@@ -112,7 +112,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 ## Programming Assignments
 
-- [Assignment 0]() `not graded`
+- [Assignment 0](assignments) `not graded`
 - [Assignment 1]() `due TBD`
 - [Assignment 2]() `due TBD`
 - [Assignment 3]() `due TBD`
@@ -131,7 +131,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 ## Midterm and Final Exams
 There will be one midterm and a final exam based on course content (lectures, discussions, and assignments).
 
-- Midterm Exam `on TBD` 
+- Midterm Exam `on Feb 25 (during class)` 
 - Final Exam `on TBD`
 
 > **Format:** in class, closed book
@@ -162,9 +162,3 @@ We will follow U-M Engineering's academic policies throughout this course unless
 
 This class borrows inspiration from several incredible sources.
 - The lecture slides' material is partially adapted from my Ph.D. advisors, Jen Rexford's [COS 461](https://www.cs.princeton.edu/courses/archive/fall20/cos461) class and Nick Feamster's [COS 461](https://www.cs.princeton.edu/courses/archive/spring19/cos461/) class at Princeton.
-
-
-
-
-
-
