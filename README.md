@@ -19,6 +19,7 @@
 - Development environment: [AWS Academy](https://awsacademy.instructure.com/courses/151633)
 - Exam submission: [Gradescope](https://www.gradescope.com/courses/1206766)
 - Office hours: [Calendar](https://campuswire.com/c/calendar)
+- Lecture and Discussion Slides: [Google Drive](https://drive.google.com/drive/folders/1fZcK_Xw-4bJ_YaCD81XjHtGBvE5wvDZ6)
 - Discussion sections
   - (011) Friday 9:30am-10:30am, GGBL 2147, Wonbin Jin
   - (012) Thursday 4:30-5:30pm, FXB 1024, Arnav Shah

@@ -26,15 +26,17 @@ SCRIPTS = ../scripts
 export MN_STRATUM_IMG = opennetworking/mn-stratum:latest
 export ONOS_IMAGE = onosproject/onos:latest
 
-.PHONY: mininet controller cli netcfg host-h1 host-h2
+export name ?=
+
+.PHONY: mininet controller cli netcfg host
 
 help:
-	@echo "Example usage ...\n"
-	@echo "- Start Mininet: make mininet\n"
-	@echo "- Start Controller: make controller\n"
-	@echo "- Access ONOS CLI: make cli\n"
-	@echo "- Load Network Config: make netcfg\n"
-	@echo "- Access Host: make host name=h1\n"
+	@echo "Example usage:"
+	@echo "  sudo make mininet           Start Mininet"
+	@echo "  sudo make controller        Start ONOS Controller"
+	@echo "  sudo make cli               Access Controller CLI (password: rocks)"
+	@echo "  sudo make netcfg            Connect Controller to Mininet"
+	@echo "  sudo make host name=h1      Access Mininet Host"
 
 mininet:
 	$(SCRIPTS)/mn-stratum
