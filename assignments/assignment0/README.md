@@ -79,7 +79,7 @@ $ cd public/assignments/assignment0
 $ sudo make controller
 ```
 
-This will start the ONOS controller. You will see a lot of information printed on the terminal; wait until it stops---and it will stop!
+This will start the ONOS controller. You will see a stream of information from ONOS printed on the terminal; wait until it settles down---and it will!
 
 > **Note:** As Docker is running these containers for the first time, it will need to download them from https://hub.docker.com. These are large images (hundreds of megabytes), so they may take some time to download depending upon the network speed---don't worry if the process is slow. It will happen only once, as Docker caches these images and reuses them whenever Docker containers are started again.
 
@@ -211,3 +211,10 @@ PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
 
 #### Yay, you have successfully finished setting up your first and very own virtual network!
 
+---
+
+## FAQs
+
+- **Oh no! I lost my `.pem` key pair. What should I do?** Your `.pem` key pair behaves just like an `.ssh` key. If you lost it, you'll need to create a new one. Re-do steps 8 through 12 in `eecs489-awsacademy-hotwo.pdf` to generate a new key pair. *Make sure to add the public key to your AWS VM instance (via the AWS Console or Portal)*.
+
+- **I accidentally killed the terminal before exiting Mininet cleanly, and now I'm getting this error. What should I do?** If you accidentally closed the terminal before exiting Mininet properly and now see an error like docker: `Error response from daemon: Conflict. The container name "/mn-stratum" is already in use`, it means the Mininet Docker container is still running in the background. To fix this, you need to forcefully stop and remove the container using the command `sudo docker rm -f mn-stratum`. After that, restart Mininet with `sudo make mininet`. Going forward, always make sure to exit Mininet cleanly by typing exit at the `mininet>` prompt to avoid such issues.

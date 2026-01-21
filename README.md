@@ -59,7 +59,7 @@ The goals for this course are:
 | Wed <br> Jan 14 | [AWS Academy](https://awsacademy.instructure.com/courses/151633) and [Assignment 0](assignments) Walkthrough | | |
 | **Week 3** | **Network Building Blocks** | | |
 | Mon <br> Jan 19 | *Martin Luther King, Jr. Day* <br> No Class | | |
-| Wed <br> Jan 21 | | | |
+| Wed <br> Jan 21 | Layering and Protocols ([ppt](https://drive.google.com/file/d/15UlLcYifhMxbJjs1ZtOHYm10iY4x8zme/view?usp=sharing)) | | &bull; [End-to-End Arguments](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/e2eArgument84.pdf) <br/> &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
 | **Week 4** |**The Network API** | | |
 | Mon <br> Jan 26 | | | |
 | Wed <br> Jan 28 | | | |
