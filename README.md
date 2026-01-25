@@ -55,14 +55,15 @@ The goals for this course are:
 | **Week 1** | **Course Overview** | | |
 | Wed <br> Jan 07 | Introduction ([ppt](https://drive.google.com/file/d/1BHkOV02QfuHHvOLZ_NyRPm888gy1cBo5/view)) | | |
 | **Week 2** | **History of the Internet** | | |
-| Mon <br> Jan 12 | A Brief History of the Internet ([ppt](https://drive.google.com/file/d/1S-oV_BZwsnvSMfIWXvgodAiZ-WpXEeK-/view)) | | [Leiner et al. (1999). A Brief History of the Internet](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/brief-history.pdf) (Optional) |
+| Mon <br> Jan 12 | A Brief History of the Internet ([ppt](https://drive.google.com/file/d/1S-oV_BZwsnvSMfIWXvgodAiZ-WpXEeK-/view)) | | &bull; [Leiner et al. (1999). A Brief History of the Internet](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/brief-history.pdf) (Optional) |
 | Wed <br> Jan 14 | [AWS Academy](https://awsacademy.instructure.com/courses/151633) and [Assignment 0](assignments) Walkthrough | | |
 | **Week 3** | **Network Building Blocks** | | |
 | Mon <br> Jan 19 | *Martin Luther King, Jr. Day* <br> No Class | | |
 | Wed <br> Jan 21 | Layering and Protocols ([ppt](https://drive.google.com/file/d/15UlLcYifhMxbJjs1ZtOHYm10iY4x8zme/view?usp=sharing)) | | &bull; [End-to-End Arguments](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/e2eArgument84.pdf) <br/> &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
+| Fri <br> Jan 23 | | &bull; [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26` | |
 | **Week 4** |**The Network API** | | |
-| Mon <br> Jan 26 | | | |
-| Wed <br> Jan 28 | | | |
+| Mon <br> Jan 26 | Sockets: The Network Interface ([ppt](https://drive.google.com/file/d/1nRLC7BpptxV92dk6XnLkPsfwzH7atzBs/view?usp=sharing)) | &bull; [Demo](demos/sockets) <br> &bull; [Assignment 1](assignments/assignment1) `due Feb 09` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
+| Wed <br> Jan 28 | Transport: Process-to-Process Communication ([ppt](https://drive.google.com/file/d/1u9hlNUOYL_2sGnq3EuahwqXNBInSgvv9/view?usp=sharing)) | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
 | **Week 5** | **Local Area Networks** | | |
 | Mon <br> Feb 02 | | | |
 | Wed <br> Feb 04 | | | |
@@ -114,14 +115,14 @@ While EECS 482 is not required, students are expected to have strong proficiency
 ## Programming Assignments
 
 - [Assignment 0](assignments) `not graded`
-- [Assignment 1]() `due TBD`
+- [Assignment 1](assignments/assignment1) `due Feb 09`
 - [Assignment 2]() `due TBD`
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
 
 ## Quizzes
 
-- [Quiz 1]() `due TBD`
+- [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26`
 - [Quiz 2]() `due TBD`
 - [Quiz 3]() `due TBD`
 - [Quiz 4]() `due TBD`

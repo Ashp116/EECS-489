@@ -14,4 +14,4 @@ The programming assignments are designed to be challenging but manageable in the
 Let's get started!
 
 #### &bull; [Assignment 0: Virtual Networks using Mininet and ONOS](assignment0)
-
+#### &bull; [Assignment 1: File and Message Transmission using Sockets and 3-Way Handshake](assignment1)
