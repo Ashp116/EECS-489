@@ -39,7 +39,9 @@
  * Open socket and send message from stdin.
  * Return 0 on success, non-zero on failure
  */
-int client(char *server_ip, char *server_port) { return 0; }
+int client(char *server_ip, char *server_port) { 
+  return 0; 
+}
 
 /*
  * main()
