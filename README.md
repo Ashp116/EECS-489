@@ -65,8 +65,8 @@ The goals for this course are:
 | Mon <br> Jan 26 | Sockets: The Network Interface ([ppt](https://drive.google.com/file/d/1nRLC7BpptxV92dk6XnLkPsfwzH7atzBs/view?usp=sharing)) | &bull; [Demo](demos/sockets) <br> &bull; [Assignment 1](assignments/assignment1) `due Feb 09` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
 | Wed <br> Jan 28 | Transport: Process-to-Process Communication ([ppt](https://drive.google.com/file/d/1u9hlNUOYL_2sGnq3EuahwqXNBInSgvv9/view?usp=sharing)) | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
 | **Week 5** | **Local Area Networks** | | |
-| Mon <br> Feb 02 | | | |
-| Wed <br> Feb 04 | | | |
+| Mon <br> Feb 02 | Direct Links: The Wire Interface ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | &bull; PD: [2.1 - 2.6 (Technology, Encoding, Framing, ...)](https://book.systemsapproach.org/direct.html) |
+| Wed <br> Feb 04 | Direct Links: The Wire Interface (contd.) ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | |
 | **Week 6** | **Network Addressing and Configuration** | | |
 | Mon <br> Feb 09 | | | |
 | Wed <br> Feb 11 | | | |
