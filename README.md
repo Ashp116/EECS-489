@@ -64,31 +64,32 @@ The goals for this course are:
 | **Week 4** |**The Network API** | | |
 | Mon <br> Jan 26 | Sockets: The Network Interface ([ppt](https://drive.google.com/file/d/1nRLC7BpptxV92dk6XnLkPsfwzH7atzBs/view?usp=sharing)) | &bull; [Demo](demos/sockets) <br> &bull; [Assignment 1](assignments/assignment1) `due Feb 09` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
 | Wed <br> Jan 28 | Transport: Process-to-Process Communication ([ppt](https://drive.google.com/file/d/1u9hlNUOYL_2sGnq3EuahwqXNBInSgvv9/view?usp=sharing)) | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
-| **Week 5** | **Local Area Networks** | | |
+| **Week 5** | **Local Area Networks I** | | |
 | Mon <br> Feb 02 | Direct Links: The Wire Interface ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | &bull; PD: [2.1 - 2.6 (Technology, Encoding, Framing, ...)](https://book.systemsapproach.org/direct.html) |
 | Wed <br> Feb 04 | Direct Links: The Wire Interface (contd.) ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | |
-| **Week 6** | **Network Addressing and Configuration** | | |
-| Mon <br> Feb 09 | | | |
-| Wed <br> Feb 11 | | | |
-| **Week 7** | **Process-to-Process Communication**| | |
+| **Week 6** | **Local Area Networks II** | | |
+| Mon <br> Feb 09 | Indirect Links: Internetworking - L2/L3 ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Demo](demos/ARP) | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
+| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 09` | |
+| Fri <br> Feb 13 | | &bull; [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16` | |
+| **Week 7** | **Network Addressing and Configuration** | | |
 | Mon <br> Feb 16 | | | |
 | Wed <br> Feb 18 | | | |
-| **Week 8** | **Software-Defined Networks and Data Centers**| | |
+| **Week 8** | **Process-to-Process Communication** | | |
 | Mon <br> Feb 23 | | | |
 | Wed <br> Feb 25 | | | |
-| **Week 9** | **Wide Area Networks** | | |
+| **Week 9** | **Software-Defined Networks and Data Centers** | | |
 | Mon <br> Mar 09 | | | |
 | Wed <br> Mar 11 | | | |
-| **Week 10** | **Programmable Networks (and Network Data Planes)** | | |
+| **Week 10** | **Wide Area Networks** | | |
 | Mon <br> Mar 16 | | | |
 | Wed <br> Mar 18 | | | |
-| **Week 11** | **Resource Allocation** | | |
+| **Week 11** | **Programmable Networks (and Network Data Planes)** | | |
 | Mon <br> Mar 23 | | | |
 | Wed <br> Mar 25 | | | |
-| **Week 12** | **Network Applications** | | |
+| **Week 12** | **Resource Allocation** | | |
 | Mon <br> Mar 30 | | | |
 | Wed <br> Apr 01 | | | |
-| **Week 13** | **TBD** | | |
+| **Week 13** | **Network Applications** | | |
 | Mon <br> Apr 06 | | | |
 | Wed <br> Apr 08 | | | |
 | **Week 14** | **TBD** | | |
@@ -116,14 +117,14 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 - [Assignment 0](assignments) `not graded`
 - [Assignment 1](assignments/assignment1) `due Feb 09`
-- [Assignment 2]() `due TBD`
+- [Assignment 2](assignments/assignment2) `due Mar 09`
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
 
 ## Quizzes
 
 - [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26`
-- [Quiz 2]() `due TBD`
+- [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16`
 - [Quiz 3]() `due TBD`
 - [Quiz 4]() `due TBD`
 - [Quiz 5]() `due TBD`
@@ -151,8 +152,8 @@ There will be one midterm and a final exam based on course content (lectures, di
 
 ### Late submission
 
-- Grace period: 24 hours for the entire semester.
-- After the grace period, 25% off for every 24 hours late, rounded up.
+- Grace period: 4 days for the entire semester.
+- After the grace period, 25% will be deducted for each additional day.
 
 If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.
 
