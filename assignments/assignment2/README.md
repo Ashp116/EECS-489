@@ -223,7 +223,37 @@ Once you have completed the script, give it a try!
 </details>
 
 ## Submission and Grading
-Coming soon! 😊
+Submit `assignment2` using the autograder available at: g489.eecs.umich.edu
+
+The autograder is divided into two separate test suites: 
+- Non-VLAN tests (50 points) 
+- VLAN tests (50 points)
+
+Each suite allows **one submission per day**. We will take the **highest-scoring submission from each suite**, for a total of 100 points. Although the autograders are separate, you should not implement separate solutions. We strongly recommend:
+
+1. First completing a working implementation without VLAN support.
+2. Then extending your implementation to add VLAN support.
+3. Ensuring your final submission correctly handles both VLAN and non-VLAN cases.
+
+> **INFO:** The tests take approximately 5 minutes to run. Please do not use the autograder as a debugger. Test locally before submitting.
+
+**Group Policy.** You may work individually or in groups of two. If working in a group, you must use the same partner for both the VLAN and non-VLAN tests. You may not work with a partner for one suite and individually for the other. You will register your group when making your first submission.
+
+**How to Submit.** To submit:
+1. Navigate to the `assignment2` directory.
+2. Run the provided `submit.sh` script.
+3. Submit the generated `submit.tar` file to the autograder.
+
+Example:
+```
+$ pwd
+$ cd <path-to-folder>/public/assignments/assignment2
+$ bash submit.sh .
+```
+
+Do not modify the `submit.sh` script.
+
+**Reporting Issues.** This is a new autograder for this project. If you believe there is an issue with a test case or encounter unexpected behavior, please contact the course staff.
 
 ## Acknowledgement
 

@@ -72,11 +72,11 @@ The goals for this course are:
 | Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 09` | |
 | Fri <br> Feb 13 | | &bull; [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16` | |
 | **Week 7** | **Network Addressing and Configuration** | | |
-| Mon <br> Feb 16 | | | |
-| Wed <br> Feb 18 | | | |
-| **Week 8** | **Process-to-Process Communication** | | |
-| Mon <br> Feb 23 | | | |
-| Wed <br> Feb 25 | | | |
+| Mon <br> Feb 16 | Flat vs Classful Addressing ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.3 - 3.3.5 (Global Addressing and Subnetting)](https://book.systemsapproach.org/internetworking.html) |
+| Wed <br> Feb 18 | Classless Addressing: CIDR ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.5 (Classless Addressing)](https://book.systemsapproach.org/internetworking.html) |
+| **Week 8** | **Midterm Week** | | |
+| Mon <br> Feb 23 | *Midterm Review* | | |
+| Wed <br> Feb 25 | *Midterm Exam* | | |
 | **Week 9** | **Software-Defined Networks and Data Centers** | | |
 | Mon <br> Mar 09 | | | |
 | Wed <br> Mar 11 | | | |
