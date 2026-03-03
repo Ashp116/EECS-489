@@ -69,7 +69,7 @@ The goals for this course are:
 | Wed <br> Feb 04 | Direct Links: The Wire Interface (contd.) ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | |
 | **Week 6** | **Local Area Networks II** | | |
 | Mon <br> Feb 09 | Indirect Links: Internetworking - L2/L3 ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Demo](demos/ARP) | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
-| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 09` | |
+| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 13` | |
 | Fri <br> Feb 13 | | &bull; [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16` | |
 | **Week 7** | **Network Addressing and Configuration** | | |
 | Mon <br> Feb 16 | Flat vs Classful Addressing ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.3 - 3.3.5 (Global Addressing and Subnetting)](https://book.systemsapproach.org/internetworking.html) |
@@ -77,28 +77,29 @@ The goals for this course are:
 | **Week 8** | **Midterm Week** | | |
 | Mon <br> Feb 23 | *Midterm Review* | | |
 | Wed <br> Feb 25 | *Midterm Exam* | | |
-| **Week 9** | **Software-Defined Networks and Data Centers** | | |
+| **Week 9** | **Spring Break** | | |
+| **Week 10** | **Software-Defined Networks and Data Centers** | | |
 | Mon <br> Mar 09 | | | |
 | Wed <br> Mar 11 | | | |
-| **Week 10** | **Wide Area Networks** | | |
+| **Week 11** | **Wide Area Networks** | | |
 | Mon <br> Mar 16 | | | |
 | Wed <br> Mar 18 | | | |
-| **Week 11** | **Programmable Networks (and Network Data Planes)** | | |
+| **Week 12** | **Programmable Networks (and Network Data Planes)** | | |
 | Mon <br> Mar 23 | | | |
 | Wed <br> Mar 25 | | | |
-| **Week 12** | **Resource Allocation** | | |
+| **Week 13** | **Resource Allocation** | | |
 | Mon <br> Mar 30 | | | |
 | Wed <br> Apr 01 | | | |
-| **Week 13** | **Network Applications** | | |
+| **Week 14** | **Network Applications** | | |
 | Mon <br> Apr 06 | | | |
 | Wed <br> Apr 08 | | | |
-| **Week 14** | **TBD** | | |
+| **Week 15** | **TBD** | | |
 | Mon <br> Apr 13 | | | |
 | Wed <br> Apr 15 | | | |
-| **Week 15** | **TBD** | | |
+| **Week 16** | **TBD** | | |
 | Mon <br> Apr 20 | | | |
 | Tue <br> Apr 21 | | | |
-| **Week 16** | **Exam Week** | | |
+| **Week 17** | **Exam Week** | | |
 
 ## Prerequisites
 
@@ -117,7 +118,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 - [Assignment 0](assignments) `not graded`
 - [Assignment 1](assignments/assignment1) `due Feb 09`
-- [Assignment 2](assignments/assignment2) `due Mar 09`
+- [Assignment 2](assignments/assignment2) `due Mar 13`
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
 

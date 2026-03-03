@@ -1,4 +1,4 @@
-<img src="others/images/umich-cse-logo-white.png" alt="drawing" width="450"/>
+<img src="../../others/images/umich-cse-logo-white.png" alt="drawing" width="450"/>
 
 # Assignment 0: Virtual Networks using Mininet, Stratum, and ONOS
 
