@@ -151,13 +151,13 @@ As in the case of the learning bridge, the most important function in a learning
   - Parse the VLAN header (if present). 
   > **INFO:** You can read more about the Ethernet packet format [here](https://wiki.wireshark.org/Ethernet), and VLAN [here](https://wiki.wireshark.org/VLAN).
 - **Learning switch/VLAN stage ([line 130](assignments/assignment2/p4rt-src/switch.py#L130)).** <br>You need to add code to complete the learning switch logic with VLAN support. The switch must carryout the following tasks for each incoming packet:
-  - If the packet is an ARP request,
+  - If the packet is an ARP request or response,
     - learn the Ethernet address to port mapping by updating the `eth_to_port_map` table with the new source MAC and ingress port pair.
-    - broadcast the ARP packet;
+    - broadcast the ARP request or unicast if it's a response packet;
       - however, make sure if it's a VLAN packet then only those hosts belonging to the particular VLAN receive the packet (use `vlan_id_to_ports_map` table for this).
   - Else, for any other packet,
     - forward it using the learned Ethernet address to port mapping (i.e., `eth_to_port_map` table).
-    - if no mapping exists, drop the packet (we haven't received an ARP request for it yet).
+    - if no mapping exists, drop the packet (we haven't received an ARP request/response for it yet).
 
 You also need to add code to **install VLAN-specific broadcast rules (lines [242](assignments/assignment2/p4rt-src/switch.py#L242) and [273](assignments/assignment2/p4rt-src/switch.py#L273))**. The default broadcast rule copies and forwards packet to all ports of the switch except the ingress port. Whereas, in the case of VLAN, you need to broadcast packets only to those ports belonging to a given VLAN. 
 

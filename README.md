@@ -49,6 +49,7 @@ The goals for this course are:
 > - Abbreviations refer to the following:
 >   - PD: Peterson/Davie 
 >   - KR: Kurose/Ross
+>   - SDN: Peterson/Cascone/O’Connor/Vachuska/Davie (online version)
 
 | Date    | Topics  | Notes | Readings |
 | :------ | :------ | :------  | :------ |
@@ -69,7 +70,7 @@ The goals for this course are:
 | Wed <br> Feb 04 | Direct Links: The Wire Interface (contd.) ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | |
 | **Week 6** | **Local Area Networks II** | | |
 | Mon <br> Feb 09 | Indirect Links: Internetworking - L2/L3 ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Demo](demos/ARP) | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
-| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 13` | |
+| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 16` | |
 | Fri <br> Feb 13 | | &bull; [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16` | |
 | **Week 7** | **Network Addressing and Configuration** | | |
 | Mon <br> Feb 16 | Flat vs Classful Addressing ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.3 - 3.3.5 (Global Addressing and Subnetting)](https://book.systemsapproach.org/internetworking.html) |
@@ -79,8 +80,8 @@ The goals for this course are:
 | Wed <br> Feb 25 | *Midterm Exam* | | |
 | **Week 9** | **Spring Break** | | |
 | **Week 10** | **Software-Defined Networks and Data Centers** | | |
-| Mon <br> Mar 09 | | | |
-| Wed <br> Mar 11 | | | |
+| Mon <br> Mar 09 |SDN Abstractions and Virtualization ([ppt](https://drive.google.com/file/d/1W2YrFppigXPcwUPEqENrHfRbMxrrhCb_/view?usp=sharing)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
+| Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1q1xb7V-QJmtnck0laIIAUbobBH-MdVoT/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
 | **Week 11** | **Wide Area Networks** | | |
 | Mon <br> Mar 16 | | | |
 | Wed <br> Mar 18 | | | |
@@ -118,7 +119,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 - [Assignment 0](assignments) `not graded`
 - [Assignment 1](assignments/assignment1) `due Feb 09`
-- [Assignment 2](assignments/assignment2) `due Mar 13`
+- [Assignment 2](assignments/assignment2) `due Mar 16` ~~`Mar 13`~~
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
 

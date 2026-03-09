@@ -131,10 +131,10 @@ def ProcPacketIn(switch_name, mcast_group_id,
                 ##################################################################################
 
                 # TODO: For each packet, carryout the following tasks:
-                # - If the packet is an ARP request, 
+                # - If the packet is an ARP request or response, 
                 #   - learn the Ethernet address to port mapping by updating the `eth_to_port_map` 
                 #     table with the new source MAC and ingress port pair
-                #   - broadcast the ARP packet; however, make sure only those hosts belonging to 
+                #   - broadcast the ARP request or unicast if it's a response packet; however, make sure only those hosts belonging to 
                 #     a partuclar VLAN receive the packet (use `vlan_id_to_ports_map` table 
                 #     for this)
                 # - Else, for any other packet,
