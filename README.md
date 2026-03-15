@@ -83,8 +83,8 @@ The goals for this course are:
 | Mon <br> Mar 09 |SDN Abstractions and Virtualization ([ppt](https://drive.google.com/file/d/1W2YrFppigXPcwUPEqENrHfRbMxrrhCb_/view?usp=sharing)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
 | Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1q1xb7V-QJmtnck0laIIAUbobBH-MdVoT/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
 | **Week 11** | **Wide Area Networks** | | |
-| Mon <br> Mar 16 | | | |
-| Wed <br> Mar 18 | | | |
+| Mon <br> Mar 16 | Direct Networks: Intradomain Routing ([ppt](https://drive.google.com/file/d/1OfuCiMHf3dskNkGJFfKYAB-qli8TvPFM/view?usp=sharing)) | &bull; [Assignment 3](assignments/assignment3) `due Apr 06` | &bull; PD: [3.4.2 - 3.4.3 (Routing: Distance Vector and Link State)](https://book.systemsapproach.org/internetworking/routing.html) |
+| Wed <br> Mar 18 | *No Class* | | |
 | **Week 12** | **Programmable Networks (and Network Data Planes)** | | |
 | Mon <br> Mar 23 | | | |
 | Wed <br> Mar 25 | | | |
@@ -120,7 +120,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 - [Assignment 0](assignments) `not graded`
 - [Assignment 1](assignments/assignment1) `due Feb 09`
 - [Assignment 2](assignments/assignment2) `due Mar 16` ~~`Mar 13`~~
-- [Assignment 3]() `due TBD`
+- [Assignment 3](assignments/assignment3) `due Apr 06`
 - [Assignment 4]() `due TBD`
 
 ## Quizzes
