@@ -176,7 +176,40 @@ Answer the questions in the file [`questions.txt`](questions.txt). Put your and 
 
 
 ## Submission and Grading
-Coming soon! 😊
+Submit `assignment3` using the autograder available at: [g489.eecs.umich.edu](https://g489.eecs.umich.edu)
+
+The autograder allows **one submission per day**. We will consider your **highest-scoring submission**.
+
+> **INFO:** Please avoid using the autograder as a debugging tool. Test your implementation locally before submitting.
+
+**Group Policy**. You may work individually or in groups of up to two students. If working in a group, both partners must be registered together when making the first submission.
+
+**How to Submit (Autograder)**. To submit:
+
+1. Navigate to the `assignment3` directory.
+2. Run the provided `submit.sh` script.
+3. Submit the generated `submit.tar` file to the autograder.
+
+Example:
+```bash
+$ cd <path-to-folder>/assignments/assignment3
+$ bash submit.sh .
+```
+Do not modify the `submit.sh` script.
+
+**Written Submission (Gradescope)**. In addition to the autograder, you must complete a written component submitted via [Gradescope](https://www.gradescope.com/courses/1206766/assignments/7856340/).
+
+Your submission should include:
+- Answers to all questions in `questions.txt`
+- The plot generated after executing `start_dns_monitor.py`
+
+Please submit a single PDF containing all answers and the plot.
+
+**Grading Breakdown**.
+
+- Autograder: 130 points
+- Gradescope: 20 points
+- **Total: 150 points**
 
 ## Acknowledgement
 

@@ -82,19 +82,20 @@ The goals for this course are:
 | **Week 10** | **Software-Defined Networks and Data Centers** | | |
 | Mon <br> Mar 09 |SDN Abstractions and Virtualization ([ppt](https://drive.google.com/file/d/1W2YrFppigXPcwUPEqENrHfRbMxrrhCb_/view?usp=sharing)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
 | Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1q1xb7V-QJmtnck0laIIAUbobBH-MdVoT/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
-| **Week 11** | **Wide Area Networks** | | |
+| **Week 11** | **Wide Area Networks I** | | |
 | Mon <br> Mar 16 | Direct Networks: Intradomain Routing ([ppt](https://drive.google.com/file/d/1OfuCiMHf3dskNkGJFfKYAB-qli8TvPFM/view?usp=sharing)) | &bull; [Assignment 3](assignments/assignment3) `due Apr 06` | &bull; PD: [3.4.2 - 3.4.3 (Routing: Distance Vector and Link State)](https://book.systemsapproach.org/internetworking/routing.html) |
 | Wed <br> Mar 18 | *No Class* | | |
-| **Week 12** | **Programmable Networks (and Network Data Planes)** | | |
-| Mon <br> Mar 23 | | | |
-| Wed <br> Mar 25 | | | |
-| **Week 13** | **Resource Allocation** | | |
+| Fri <br> Mar 20 | | &bull; [Quiz 3](https://www.gradescope.com/courses/1206766/assignments/7866874) `due Mar 23` | |
+| **Week 12** | **Wide Area Networks II** | | |
+| Mon <br> Mar 23 | *No Class* | | |
+| Wed <br> Mar 25 | Indirect Networks: Interdomain Routing ([ppt]()) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
+| **Week 13** | **Programmable Networks (and Network Data Planes)** | | |
 | Mon <br> Mar 30 | | | |
 | Wed <br> Apr 01 | | | |
-| **Week 14** | **Network Applications** | | |
+| **Week 14** | **Resource Allocation** | | |
 | Mon <br> Apr 06 | | | |
 | Wed <br> Apr 08 | | | |
-| **Week 15** | **TBD** | | |
+| **Week 15** | **Network Applications** | | |
 | Mon <br> Apr 13 | | | |
 | Wed <br> Apr 15 | | | |
 | **Week 16** | **TBD** | | |
@@ -114,7 +115,6 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 > Other optional but interesting resources: [Software-Defined Networks: A Systems Approach](https://sdn.systemsapproach.org/index.html), [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html) [Sytems Approach - Blog](https://www.systemsapproach.org/blog), [TCP Congestion Control: A Systems Approach](https://tcpcc.systemsapproach.org/index.html), [Operating an Edge Cloud: A Systems Approach](https://ops.systemsapproach.org), and [Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networked Devices](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141)
 
-
 ## Programming Assignments
 
 - [Assignment 0](assignments) `not graded`
@@ -127,7 +127,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 
 - [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26`
 - [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16`
-- [Quiz 3]() `due TBD`
+- [Quiz 3](https://www.gradescope.com/courses/1206766/assignments/7866874) `due Mar 23`
 - [Quiz 4]() `due TBD`
 - [Quiz 5]() `due TBD`
 

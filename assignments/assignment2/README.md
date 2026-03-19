@@ -223,7 +223,7 @@ Once you have completed the script, give it a try!
 </details>
 
 ## Submission and Grading
-Submit `assignment2` using the autograder available at: g489.eecs.umich.edu
+Submit `assignment2` using the autograder available at: [g489.eecs.umich.edu](https://g489.eecs.umich.edu)
 
 The autograder is divided into two separate test suites: 
 - Non-VLAN tests (50 points) 
