@@ -88,7 +88,7 @@ The goals for this course are:
 | Fri <br> Mar 20 | | &bull; [Quiz 3](https://www.gradescope.com/courses/1206766/assignments/7866874) `due Mar 23` | |
 | **Week 12** | **Wide Area Networks II** | | |
 | Mon <br> Mar 23 | *No Class* | | |
-| Wed <br> Mar 25 | Indirect Networks: Interdomain Routing ([ppt]()) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
+| Wed <br> Mar 25 | Indirect Networks: Interdomain Routing ([ppt](https://drive.google.com/file/d/1ANDoNIxiYmmG-2jPgdAplOJPXWPjHxIq/view?usp=sharing)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
 | **Week 13** | **Programmable Networks (and Network Data Planes)** | | |
 | Mon <br> Mar 30 | | | |
 | Wed <br> Apr 01 | | | |
