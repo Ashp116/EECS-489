@@ -50,6 +50,7 @@ The goals for this course are:
 >   - PD: Peterson/Davie 
 >   - KR: Kurose/Ross
 >   - SDN: Peterson/Cascone/O’Connor/Vachuska/Davie (online version)
+>   - GV: Varghese/Xu (2nd edition)
 
 | Date    | Topics  | Notes | Readings |
 | :------ | :------ | :------  | :------ |
@@ -90,8 +91,8 @@ The goals for this course are:
 | Mon <br> Mar 23 | *No Class* | | |
 | Wed <br> Mar 25 | Indirect Networks: Interdomain Routing ([ppt](https://drive.google.com/file/d/1ANDoNIxiYmmG-2jPgdAplOJPXWPjHxIq/view?usp=sharing)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
 | **Week 13** | **Programmable Networks (and Network Data Planes)** | | |
-| Mon <br> Mar 30 | | | |
-| Wed <br> Apr 01 | | | |
+| Mon <br> Mar 30 | Protocol-Independent Switching: Bottoms Up vs Top Down ([ppt](https://drive.google.com/file/d/10mb9MqhtLBpqZbz5enLdnmYp3IS5I4dZ/view?usp=sharing)) | | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
+| Wed <br> Apr 01 | Router Design: Lookup and Scheduling ([ppt](https://drive.google.com/file/d/1qimoYO0-qRSN3vQG7OrVB5QiXCzwVx62/view?usp=sharing)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141) |
 | **Week 14** | **Resource Allocation** | | |
 | Mon <br> Apr 06 | | | |
 | Wed <br> Apr 08 | | | |
@@ -100,8 +101,9 @@ The goals for this course are:
 | Wed <br> Apr 15 | | | |
 | **Week 16** | **TBD** | | |
 | Mon <br> Apr 20 | | | |
-| Tue <br> Apr 21 | | | |
+| Wed <br> Apr 22 | *Final Review* | | |
 | **Week 17** | **Exam Week** | | |
+| Wed <br> Apr 29 | *Final Exam* | | |
 
 ## Prerequisites
 
@@ -112,8 +114,10 @@ While EECS 482 is not required, students are expected to have strong proficiency
 ## Recommended Textbooks
 - Computer Networks: A Systems Approach by L. Peterson and B. Davie ([Online Version](https://book.systemsapproach.org/index.html))
 - Computer Networking: A Top-Down Approach by J. Kurose and K. Ross (7th or earlier edition)
+- Software-Defined Networks: A Systems Approach by L. Peterson, C. Cascone, B. O’Connor, T. Vachuska, and Bruce Davie ([Online Version](https://sdn.systemsapproach.org/index.html)) 
+- Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networked Devices by George Varghese and Jianjun Xu (2nd Edition, [UM Library](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141))
 
-> Other optional but interesting resources: [Software-Defined Networks: A Systems Approach](https://sdn.systemsapproach.org/index.html), [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html) [Sytems Approach - Blog](https://www.systemsapproach.org/blog), [TCP Congestion Control: A Systems Approach](https://tcpcc.systemsapproach.org/index.html), [Operating an Edge Cloud: A Systems Approach](https://ops.systemsapproach.org), and [Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networked Devices](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141)
+> Other optional but interesting resources: [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html) [Sytems Approach - Blog](https://www.systemsapproach.org/blog), [TCP Congestion Control: A Systems Approach](https://tcpcc.systemsapproach.org/index.html), [Operating an Edge Cloud: A Systems Approach](https://ops.systemsapproach.org).
 
 ## Programming Assignments
 
@@ -129,7 +133,6 @@ While EECS 482 is not required, students are expected to have strong proficiency
 - [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16`
 - [Quiz 3](https://www.gradescope.com/courses/1206766/assignments/7866874) `due Mar 23`
 - [Quiz 4]() `due TBD`
-- [Quiz 5]() `due TBD`
 
 > **Format:** take home, open book
 
@@ -137,7 +140,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 There will be one midterm and a final exam based on course content (lectures, discussions, and assignments).
 
 - Midterm Exam `on Feb 25 (during class)` 
-- Final Exam `on TBD`
+- Final Exam `on Apr 29 (during class)`
 
 > **Format:** in class, closed book
 
