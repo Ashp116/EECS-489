@@ -94,16 +94,16 @@ The goals for this course are:
 | Mon <br> Mar 30 | Protocol-Independent Switching: Bottoms Up vs Top Down ([ppt](https://drive.google.com/file/d/10mb9MqhtLBpqZbz5enLdnmYp3IS5I4dZ/view?usp=sharing)) | | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
 | Wed <br> Apr 01 | Router Design: Lookup and Scheduling ([ppt](https://drive.google.com/file/d/1qimoYO0-qRSN3vQG7OrVB5QiXCzwVx62/view?usp=sharing)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141) |
 | **Week 14** | **Resource Allocation** | | |
-| Mon <br> Apr 06 | | | |
-| Wed <br> Apr 08 | | | |
+| Mon <br> Apr 06 | Congestion Control and Queuing Disciplines ([ppt](https://drive.google.com/file/d/1MV2FIyRTYMrC2syS--fjEk7MxAjOfz4n/view?usp=sharing)) | | &bull; PD: [6.1 - 6.2 (Issues, Queuing)](https://book.systemsapproach.org/congestion.html) |
+| Wed <br> Apr 08 | Transport: Congestion Control (TCP) ([ppt](https://drive.google.com/file/d/1f_JwR3cQNe5VdIsc7heAo-isNnlQpK3w/view?usp=sharing)) | &bull; [Assignment 4](assignments/assignment4) `due Apr 27` | &bull; PD: [6.3 - 6.4 (TCP, ...)](https://book.systemsapproach.org/congestion.html) |
 | **Week 15** | **Network Applications** | | |
-| Mon <br> Apr 13 | | | |
+| Mon <br> Apr 13 | The World Wide Web (HTTP) ([ppt](https://drive.google.com/file/d/1P8y3rauEvKU-ebpNNj8rhczEZjVg7mAI/view?usp=sharing), [video](https://drive.google.com/file/d/1bFNyCOyGy_Akm5-XTChmtlYZ636sX_BN/view?usp=drive_link)) | | &bull; PD: [9.1.2 (World Wide Web)](https://book.systemsapproach.org/applications/traditional.html#world-wide-web-http) |
 | Wed <br> Apr 15 | | | |
-| **Week 16** | **TBD** | | |
-| Mon <br> Apr 20 | | | |
-| Wed <br> Apr 22 | *Final Review* | | |
+| **Week 16** | **Final Review** | | |
+| Mon <br> Apr 20 | *Final Review* | | |
+| Wed <br> Apr 22 | *Study Day* | | |
 | **Week 17** | **Exam Week** | | |
-| Wed <br> Apr 29 | *Final Exam* | | |
+| Wed <br> Apr 29 | *Final Exam* <br> `10:30a-12:30p, STAMPS` |  | |
 
 ## Prerequisites
 
@@ -125,7 +125,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 - [Assignment 1](assignments/assignment1) `due Feb 09`
 - [Assignment 2](assignments/assignment2) `due Mar 16` ~~`Mar 13`~~
 - [Assignment 3](assignments/assignment3) `due Apr 06`
-- [Assignment 4]() `due TBD`
+- [Assignment 4](assignments/assignment4) `due Apr 27`
 
 ## Quizzes
 
@@ -140,7 +140,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 There will be one midterm and a final exam based on course content (lectures, discussions, and assignments).
 
 - Midterm Exam `on Feb 25 (during class)` 
-- Final Exam `on Apr 29 (during class)`
+- Final Exam `on Apr 29 (10:30a-12:30p, STAMPS)`
 
 > **Format:** in class, closed book
 
@@ -151,7 +151,6 @@ There will be one midterm and a final exam based on course content (lectures, di
 - Quizzes: 10%
 - Midterm exam: 20%
 - Final exam: 20%
-- Extra credit: 2%
 
 ## Policies
 

@@ -17,3 +17,4 @@ Let's get started!
 #### &bull; [Assignment 1: File and Message Transmission using Sockets and 3-Way Handshake](assignment1)
 #### &bull; [Assignment 2: From Bridging to Switching with VLANs](assignment2)
 #### &bull; [Assignment 3: DNS Reflection Attacks' Detection and Mitigation](assignment3)
+#### &bull; [Assignment 4: From Bridging to Switching using P4's Match-Action Tables (MATs)](assignment4)
