@@ -22,7 +22,7 @@
 - Lecture and Discussion Slides: [Google Drive](https://drive.google.com/drive/folders/1fZcK_Xw-4bJ_YaCD81XjHtGBvE5wvDZ6)
 - Discussion sections
   - (011) Friday 9:30am-10:30am, GGBL 2147, Wonbin Jin
-  - (012) Thursday 4:30-5:30pm, FXB 1024, Arnav Shah
+  - (012) Thursday 4:30-5:30pm, FXB 1024, Arnav Shah, [Recording](https://leccap.engin.umich.edu/leccap/site/tprhryaa1rgvtouj0rn)
   - (013) Friday 12:30-1:30pm, EECS 1311, Madison Heyer
 
 > **Note:** Visit [Canvas](https://umich.instructure.com/courses/818453) for instructions on joining [Campuswire](https://campuswire.com/c/G875C9A30), [Gradescope](https://www.gradescope.com/courses/1206766), and [AWS Academy](https://awsacademy.instructure.com/courses/151633).
@@ -49,6 +49,8 @@ The goals for this course are:
 > - Abbreviations refer to the following:
 >   - PD: Peterson/Davie 
 >   - KR: Kurose/Ross
+>   - SDN: Peterson/Cascone/O’Connor/Vachuska/Davie (online version)
+>   - GV: Varghese/Xu (2nd edition)
 
 | Date    | Topics  | Notes | Readings |
 | :------ | :------ | :------  | :------ |
@@ -62,8 +64,8 @@ The goals for this course are:
 | Wed <br> Jan 21 | Layering and Protocols ([ppt](https://drive.google.com/file/d/15UlLcYifhMxbJjs1ZtOHYm10iY4x8zme/view?usp=sharing)) | | &bull; [End-to-End Arguments](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/e2eArgument84.pdf) <br/> &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
 | Fri <br> Jan 23 | | &bull; [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26` | |
 | **Week 4** |**The Network API** | | |
-| Mon <br> Jan 26 | Sockets: The Network Interface ([ppt](https://drive.google.com/file/d/1nRLC7BpptxV92dk6XnLkPsfwzH7atzBs/view?usp=sharing)) | &bull; [Demo](demos/sockets) <br> &bull; [Assignment 1](assignments/assignment1) `due Feb 09` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
-| Wed <br> Jan 28 | Transport: Process-to-Process Communication ([ppt](https://drive.google.com/file/d/1u9hlNUOYL_2sGnq3EuahwqXNBInSgvv9/view?usp=sharing)) | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
+| Mon <br> Jan 26 | | | |
+| Wed <br> Jan 28 | | | |
 | **Week 5** | **Local Area Networks** | | |
 | Mon <br> Feb 02 | | | |
 | Wed <br> Feb 04 | | | |
@@ -91,13 +93,14 @@ The goals for this course are:
 | **Week 13** | **TBD** | | |
 | Mon <br> Apr 06 | | | |
 | Wed <br> Apr 08 | | | |
-| **Week 14** | **TBD** | | |
+| **Week 15** | **Network Applications** | | |
 | Mon <br> Apr 13 | | | |
 | Wed <br> Apr 15 | | | |
-| **Week 15** | **TBD** | | |
+| **Week 16** | **TBD** | | |
 | Mon <br> Apr 20 | | | |
-| Tue <br> Apr 21 | | | |
-| **Week 16** | **Exam Week** | | |
+| Wed <br> Apr 22 | *Final Review* | | |
+| **Week 17** | **Exam Week** | | |
+| Wed <br> Apr 29 | *Final Exam* | | |
 
 ## Prerequisites
 
@@ -108,25 +111,25 @@ While EECS 482 is not required, students are expected to have strong proficiency
 ## Recommended Textbooks
 - Computer Networks: A Systems Approach by L. Peterson and B. Davie ([Online Version](https://book.systemsapproach.org/index.html))
 - Computer Networking: A Top-Down Approach by J. Kurose and K. Ross (7th or earlier edition)
+- Software-Defined Networks: A Systems Approach by L. Peterson, C. Cascone, B. O’Connor, T. Vachuska, and Bruce Davie ([Online Version](https://sdn.systemsapproach.org/index.html)) 
+- Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networked Devices by George Varghese and Jianjun Xu (2nd Edition, [UM Library](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141))
 
-> Other optional but interesting resources: [Software-Defined Networks: A Systems Approach](https://sdn.systemsapproach.org/index.html), [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html) [Sytems Approach - Blog](https://www.systemsapproach.org/blog), [TCP Congestion Control: A Systems Approach](https://tcpcc.systemsapproach.org/index.html), [Operating an Edge Cloud: A Systems Approach](https://ops.systemsapproach.org), and [Network Algorithmics: An Interdisciplinary Approach to Designing Fast Networked Devices](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141)
-
+> Other optional but interesting resources: [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html) [Sytems Approach - Blog](https://www.systemsapproach.org/blog), [TCP Congestion Control: A Systems Approach](https://tcpcc.systemsapproach.org/index.html), [Operating an Edge Cloud: A Systems Approach](https://ops.systemsapproach.org).
 
 ## Programming Assignments
 
 - [Assignment 0](assignments) `not graded`
-- [Assignment 1](assignments/assignment1) `due Feb 09`
+- [Assignment 1]() `due TBD`
 - [Assignment 2]() `due TBD`
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
 
 ## Quizzes
 
-- [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26`
+- [Quiz 1]() `due TBD`
 - [Quiz 2]() `due TBD`
 - [Quiz 3]() `due TBD`
 - [Quiz 4]() `due TBD`
-- [Quiz 5]() `due TBD`
 
 > **Format:** take home, open book
 
@@ -134,7 +137,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 There will be one midterm and a final exam based on course content (lectures, discussions, and assignments).
 
 - Midterm Exam `on Feb 25 (during class)` 
-- Final Exam `on TBD`
+- Final Exam `on Apr 29 (during class)`
 
 > **Format:** in class, closed book
 
@@ -151,8 +154,8 @@ There will be one midterm and a final exam based on course content (lectures, di
 
 ### Late submission
 
-- Grace period: 24 hours for the entire semester.
-- After the grace period, 25% off for every 24 hours late, rounded up.
+- Grace period: 4 days for the entire semester.
+- After the grace period, 25% will be deducted for each additional day.
 
 If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.
 

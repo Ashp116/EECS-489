@@ -1,4 +1,4 @@
-<img src="others/images/umich-cse-logo-white.png" alt="drawing" width="450"/>
+<img src="../../others/images/umich-cse-logo-white.png" alt="drawing" width="450"/>
 
 # Assignment 1: File and Message Transmission using Sockets and 3-Way Handshake
 
@@ -91,7 +91,15 @@ $ sudo make tests
 For each client/server pair, the test script will print "PASSED!" if the message is sent and received correctly; and "FAILED!", otherwise.
 
 ## Submission and Grading
-Coming Soon! 😊
+Submit the assignment by uploading your modified client and server files to [Canvas](https://umich.instructure.com/courses/818453/assignments/3072592). You may submit as many times as you like before the deadline, but only the final submission will be graded.
+
+We will grade assignments by running the tests in `Tests.mak` as well as additional tests involving large messages, multiple simultaneous clients, and similar scenarios. Double-check the specifications above and run your own tests before submitting. 
+
+> **Note:** Public tests will count for 80% of the assignment grade; private tests will account for the remaining 20%.
+
+Code that does not compile is graded harshly---if you want partial credit for code that does not compile, comment it out and ensure that your file compiles.
+
+Remember that, in addition to your C client/server pair, you must also submit the `client-3wh.py` file.
 
 ## Acknowledgement
 
