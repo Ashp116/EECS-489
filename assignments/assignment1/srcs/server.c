@@ -19,8 +19,8 @@
 
 /*
  * server.c
- * Name:
- * PUID:
+ * Name: Kovidh Maydiga
+ * PUID: 71992397
  */
 
 #include <errno.h>
@@ -41,9 +41,84 @@
  * Print received message to stdout
  * Return 0 on success, non-zero on failure
  */
-int server(char *server_port) { 
+int server(char *server_port) {
+  struct addrinfo hints, *server_info, *p;
+  int sockfd, clientfd;
+  struct sockaddr_storage client_addr;
+  socklen_t addr_size;
+  char buffer[RECV_BUFFER_SIZE];
+  int yes = 1;
+  ssize_t bytes_received;
+
   
-  return 0; 
+  memset(&hints, 0, sizeof(hints));
+  hints.ai_family = AF_UNSPEC;     
+  hints.ai_socktype = SOCK_STREAM; 
+  hints.ai_flags = AI_PASSIVE;     
+
+  
+  int status = getaddrinfo(NULL, server_port, &hints, &server_info);
+  if (status != 0) {
+    fprintf(stderr, "getaddrinfo error: %s\n", gai_strerror(status));
+    return 1;
+  }
+
+  for (p = server_info; p != NULL; p = p->ai_next) {
+    sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+    if (sockfd == -1) {
+      perror("server: socket");
+      continue;
+    }
+
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int)) == -1) {
+      perror("setsockopt");
+      freeaddrinfo(server_info);
+      return 1;
+    }
+
+    if (bind(sockfd, p->ai_addr, p->ai_addrlen) == -1) {
+      close(sockfd);
+      perror("server: bind");
+      continue;
+    }
+
+    break;
+  }
+
+  freeaddrinfo(server_info);
+
+  if (p == NULL) {
+    fprintf(stderr, "server: failed to bind\n");
+    return 1;
+  }
+
+  if (listen(sockfd, QUEUE_LENGTH) == -1) {
+    perror("listen");
+    return 1;
+  }
+
+  while (1) {
+    addr_size = sizeof(client_addr);
+    clientfd = accept(sockfd, (struct sockaddr *)&client_addr, &addr_size);
+    if (clientfd == -1) {
+      perror("accept");
+      continue; 
+    }
+
+    while ((bytes_received = recv(clientfd, buffer, RECV_BUFFER_SIZE, 0)) > 0) {
+      fwrite(buffer, 1, bytes_received, stdout);
+      fflush(stdout);
+    }
+
+    if (bytes_received == -1) {
+      perror("recv");
+    }
+
+    close(clientfd);
+  }
+
+  close(sockfd);
+  return 0;
 }
 
 /*

@@ -19,8 +19,8 @@
 
 /*
  * client.c
- * Name:
- * PUID:
+ * Name: Kovidh Maydiga
+ * PUID: 71992397
  */
 
 #include <errno.h>
@@ -39,8 +39,67 @@
  * Open socket and send message from stdin.
  * Return 0 on success, non-zero on failure
  */
-int client(char *server_ip, char *server_port) { 
-  return 0; 
+int client(char *server_ip, char *server_port) {
+  struct addrinfo hints, *server_info, *p;
+  int sockfd;
+  char buffer[SEND_BUFFER_SIZE];
+  ssize_t bytes_read, bytes_sent, total_sent;
+
+  memset(&hints, 0, sizeof(hints));
+  hints.ai_family = AF_UNSPEC;     
+  hints.ai_socktype = SOCK_STREAM; 
+
+  int status = getaddrinfo(server_ip, server_port, &hints, &server_info);
+  if (status != 0) {
+    fprintf(stderr, "getaddrinfo error: %s\n", gai_strerror(status));
+    return 1;
+  }
+
+  for (p = server_info; p != NULL; p = p->ai_next) {
+    sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+    if (sockfd == -1) {
+      perror("client: socket");
+      continue;
+    }
+
+    if (connect(sockfd, p->ai_addr, p->ai_addrlen) == -1) {
+      close(sockfd);
+      perror("client: connect");
+      continue;
+    }
+
+    break;
+  }
+
+  freeaddrinfo(server_info);
+
+  if (p == NULL) {
+    fprintf(stderr, "client: failed to connect\n");
+    return 1;
+  }
+
+  while ((bytes_read = read(STDIN_FILENO, buffer, SEND_BUFFER_SIZE)) > 0) {
+    total_sent = 0;
+
+    while (total_sent < bytes_read) {
+      bytes_sent = send(sockfd, buffer + total_sent, bytes_read - total_sent, 0);
+      if (bytes_sent == -1) {
+        perror("send");
+        close(sockfd);
+        return 1;
+      }
+      total_sent += bytes_sent;
+    }
+  }
+
+  if (bytes_read == -1) {
+    perror("read");
+    close(sockfd);
+    return 1;
+  }
+
+  close(sockfd);
+  return 0;
 }
 
 /*

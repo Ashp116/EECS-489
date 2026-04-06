@@ -19,8 +19,10 @@
 ##
 #############################################################################
 
-from scapy.all import *
+from scapy.all import IP, TCP, Raw, send, sniff, sr1, random
+import sys
 import threading
+import time
 
 SEND_PACKET_SIZE = 1000  # should be less than max packet size of 1500 bytes
 
@@ -69,23 +71,26 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
+        if pkt[TCP].dport != self.sport or pkt[TCP].sport != self.dport:
+            return
         
+        if Raw in pkt:
+            payload_len = len(pkt[Raw].load)
+            self.next_ack = pkt[TCP].seq + payload_len
+            
+            ack_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                    seq=self.next_seq, ack=self.next_ack,
+                                    flags='A')
+            send(ack_pkt, verbose=0)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
+        elif pkt[TCP].flags & 0x01:  # FIN flag
+            self.next_ack = pkt[TCP].seq + 1
+            
+            finack_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                       seq=self.next_seq, ack=self.next_ack,
+                                       flags='FA')
+            send(finack_pkt, verbose=0)
+            self.next_seq += 1
         ### END: ADD YOUR CODE HERE ... #####
 
     def connect(self):
@@ -97,26 +102,24 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
+        self.next_seq = random.randint(0, 2**32 - 1) 
+        syn_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                seq=self.next_seq, flags='S')
+        send(syn_pkt, verbose=0)
+        self.next_seq += 1  
         
+        synack_pkt = sniff(filter="tcp", count=1, timeout=self.timeout)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
+        if synack_pkt and len(synack_pkt) > 0 and synack_pkt[0].haslayer(TCP) and synack_pkt[0][TCP].flags & 0x12:  # SYN-ACK
+            self.next_ack = synack_pkt[0][TCP].seq + 1
+            
+            ack_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                    seq=self.next_seq, ack=self.next_ack,
+                                    flags='A')
+            send(ack_pkt, verbose=0)
+        else:
+            print("Connection failed: No SYNACK received")
+            return
         ### END: ADD YOUR CODE HERE ... #####
 
         self.connected = True
@@ -132,18 +135,15 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
+        fin_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                seq=self.next_seq, ack=self.next_ack,
+                                flags='FA')
+        send(fin_pkt, verbose=0)
+        self.next_seq += 1 
+        
+        time.sleep(0.5)  
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         ### END: ADD YOUR CODE HERE ... #####
 
         self.connected = False
@@ -156,19 +156,17 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
+
+        data_pkt = self.ip / TCP(sport=self.sport, dport=self.dport,
+                                 seq=self.next_seq, ack=self.next_ack,
+                                 flags='PA') / Raw(load=payload)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        send(data_pkt, verbose=0)
         
 
+        self.next_seq += len(payload)
+        
+        time.sleep(0.1) 
         ### END: ADD YOUR CODE HERE ... #####
 
 
