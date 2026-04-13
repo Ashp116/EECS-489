@@ -82,7 +82,7 @@ The goals for this course are:
 | **Week 9** | **Spring Break** | | |
 | **Week 10** | **Software-Defined Networks and Data Centers** | | |
 | Mon <br> Mar 09 |SDN Abstractions and Virtualization ([ppt](https://drive.google.com/file/d/1W2YrFppigXPcwUPEqENrHfRbMxrrhCb_/view?usp=sharing)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
-| Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1q1xb7V-QJmtnck0laIIAUbobBH-MdVoT/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
+| Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1U_PFZ0pREeH6hECgZHUa96a_thbXyBXa/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
 | **Week 11** | **Wide Area Networks I** | | |
 | Mon <br> Mar 16 | Direct Networks: Intradomain Routing ([ppt](https://drive.google.com/file/d/1OfuCiMHf3dskNkGJFfKYAB-qli8TvPFM/view?usp=sharing)) | &bull; [Assignment 3](assignments/assignment3) `due Apr 06` | &bull; PD: [3.4.2 - 3.4.3 (Routing: Distance Vector and Link State)](https://book.systemsapproach.org/internetworking/routing.html) |
 | Wed <br> Mar 18 | *No Class* | | |
@@ -96,9 +96,9 @@ The goals for this course are:
 | **Week 14** | **Resource Allocation** | | |
 | Mon <br> Apr 06 | Congestion Control and Queuing Disciplines ([ppt](https://drive.google.com/file/d/1MV2FIyRTYMrC2syS--fjEk7MxAjOfz4n/view?usp=sharing)) | | &bull; PD: [6.1 - 6.2 (Issues, Queuing)](https://book.systemsapproach.org/congestion.html) |
 | Wed <br> Apr 08 | Transport: Congestion Control (TCP) ([ppt](https://drive.google.com/file/d/1f_JwR3cQNe5VdIsc7heAo-isNnlQpK3w/view?usp=sharing)) | &bull; [Assignment 4](assignments/assignment4) `due Apr 27` | &bull; PD: [6.3 - 6.4 (TCP, ...)](https://book.systemsapproach.org/congestion.html) |
-| **Week 15** | **Network Applications** | | |
+| **Week 15** | **Network Applications and Emerging Usecases** | | |
 | Mon <br> Apr 13 | The World Wide Web (HTTP) ([ppt](https://drive.google.com/file/d/1P8y3rauEvKU-ebpNNj8rhczEZjVg7mAI/view?usp=sharing), [video](https://drive.google.com/file/d/1bFNyCOyGy_Akm5-XTChmtlYZ636sX_BN/view?usp=drive_link)) | | &bull; PD: [9.1.2 (World Wide Web)](https://book.systemsapproach.org/applications/traditional.html#world-wide-web-http) |
-| Wed <br> Apr 15 | | | |
+| Wed <br> Apr 15 | Intelligent Networks: ML4Nets + Nets4ML ([ppt](https://drive.google.com/file/d/1l4UOSTtugjSBE5vGxr1mGd88ipO5nRJR/view?usp=sharing)) | | |
 | **Week 16** | **Final Review** | | |
 | Mon <br> Apr 20 | *Final Review* | | |
 | Wed <br> Apr 22 | *Study Day* | | |
