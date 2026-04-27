@@ -14,4 +14,11 @@ The programming assignments are designed to be challenging but manageable in the
 Let's get started!
 
 #### &bull; [Assignment 0: Virtual Networks using Mininet and ONOS](assignment0)
+<<<<<<< HEAD
 
+=======
+#### &bull; [Assignment 1: File and Message Transmission using Sockets and 3-Way Handshake](assignment1)
+#### &bull; [Assignment 2: From Bridging to Switching with VLANs](assignment2)
+#### &bull; [Assignment 3: DNS Reflection Attacks' Detection and Mitigation](assignment3)
+#### &bull; [Assignment 4: From Bridging to Switching using P4's Match-Action Tables (MATs)](assignment4)
+>>>>>>> e873023b6a1025791d270f6f3c71f6e6668816f7

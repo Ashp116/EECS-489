@@ -64,6 +64,7 @@ The goals for this course are:
 | Wed <br> Jan 21 | Layering and Protocols ([ppt](https://drive.google.com/file/d/15UlLcYifhMxbJjs1ZtOHYm10iY4x8zme/view?usp=sharing)) | | &bull; [End-to-End Arguments](https://gitlab.com/umich-eecs489/winter-2026/public/-/raw/main/readings/e2eArgument84.pdf) <br/> &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
 | Fri <br> Jan 23 | | &bull; [Quiz 1](https://www.gradescope.com/courses/1206766/assignments/7521648) `due Jan 26` | |
 | **Week 4** |**The Network API** | | |
+<<<<<<< HEAD
 | Mon <br> Jan 26 | | | |
 | Wed <br> Jan 28 | | | |
 | **Week 5** | **Local Area Networks** | | |
@@ -99,8 +100,48 @@ The goals for this course are:
 | **Week 16** | **TBD** | | |
 | Mon <br> Apr 20 | | | |
 | Wed <br> Apr 22 | *Final Review* | | |
+=======
+| Mon <br> Jan 26 | Sockets: The Network Interface ([ppt](https://drive.google.com/file/d/1nRLC7BpptxV92dk6XnLkPsfwzH7atzBs/view?usp=sharing)) | &bull; [Demo](demos/sockets) <br> &bull; [Assignment 1](assignments/assignment1) `due Feb 09` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
+| Wed <br> Jan 28 | Transport: Process-to-Process Communication ([ppt](https://drive.google.com/file/d/1u9hlNUOYL_2sGnq3EuahwqXNBInSgvv9/view?usp=sharing)) | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
+| **Week 5** | **Local Area Networks I** | | |
+| Mon <br> Feb 02 | Direct Links: The Wire Interface ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | &bull; PD: [2.1 - 2.6 (Technology, Encoding, Framing, ...)](https://book.systemsapproach.org/direct.html) |
+| Wed <br> Feb 04 | Direct Links: The Wire Interface (contd.) ([ppt](https://drive.google.com/file/d/1FwNCfPtUBX-558D27hiBqScC3dRzhfEi/view?usp=drive_link)) | | |
+| **Week 6** | **Local Area Networks II** | | |
+| Mon <br> Feb 09 | Indirect Links: Internetworking - L2/L3 ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Demo](demos/ARP) | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
+| Wed <br> Feb 11 | Indirect Links: Internetworking - L2/L3 (contd.) ([ppt](https://drive.google.com/file/d/1yz4qR3Hct0OxfHf7kMbsOdISEojtWNHa/view?usp=drive_link)) | &bull; [Assignment 2](assignments/assignment2) `due Mar 16` | |
+| Fri <br> Feb 13 | | &bull; [Quiz 2](https://www.gradescope.com/courses/1206766/assignments/7653459) `due Feb 16` | |
+| **Week 7** | **Network Addressing and Configuration** | | |
+| Mon <br> Feb 16 | Flat vs Classful Addressing ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.3 - 3.3.5 (Global Addressing and Subnetting)](https://book.systemsapproach.org/internetworking.html) |
+| Wed <br> Feb 18 | Classless Addressing: CIDR ([ppt](https://drive.google.com/file/d/1Dl4RrISyRY09m-0pjjnm1L5ppR_BWSx4/view?usp=drive_link)) | | &bull; PD: [3.3.5 (Classless Addressing)](https://book.systemsapproach.org/internetworking.html) |
+| **Week 8** | **Midterm Week** | | |
+| Mon <br> Feb 23 | *Midterm Review* | | |
+| Wed <br> Feb 25 | *Midterm Exam* | | |
+| **Week 9** | **Spring Break** | | |
+| **Week 10** | **Software-Defined Networks and Data Centers** | | |
+| Mon <br> Mar 09 |SDN Abstractions and Virtualization ([ppt](https://drive.google.com/file/d/1W2YrFppigXPcwUPEqENrHfRbMxrrhCb_/view?usp=sharing)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
+| Wed <br> Mar 11 | Datacenter Origins and Architectures ([ppt](https://drive.google.com/file/d/1U_PFZ0pREeH6hECgZHUa96a_thbXyBXa/view?usp=sharing)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://www.youtube.com/watch?v=modXC5IWTJI)) |
+| **Week 11** | **Wide Area Networks I** | | |
+| Mon <br> Mar 16 | Direct Networks: Intradomain Routing ([ppt](https://drive.google.com/file/d/1OfuCiMHf3dskNkGJFfKYAB-qli8TvPFM/view?usp=sharing)) | &bull; [Assignment 3](assignments/assignment3) `due Apr 06` | &bull; PD: [3.4.2 - 3.4.3 (Routing: Distance Vector and Link State)](https://book.systemsapproach.org/internetworking/routing.html) |
+| Wed <br> Mar 18 | *No Class* | | |
+| Fri <br> Mar 20 | | &bull; [Quiz 3](https://www.gradescope.com/courses/1206766/assignments/7866874) `due Mar 23` | |
+| **Week 12** | **Wide Area Networks II** | | |
+| Mon <br> Mar 23 | *No Class* | | |
+| Wed <br> Mar 25 | Indirect Networks: Interdomain Routing ([ppt](https://drive.google.com/file/d/1ANDoNIxiYmmG-2jPgdAplOJPXWPjHxIq/view?usp=sharing)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
+| **Week 13** | **Programmable Networks (and Network Data Planes)** | | |
+| Mon <br> Mar 30 | Protocol-Independent Switching: Bottoms Up vs Top Down ([ppt](https://drive.google.com/file/d/10mb9MqhtLBpqZbz5enLdnmYp3IS5I4dZ/view?usp=sharing)) | | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
+| Wed <br> Apr 01 | Router Design: Lookup and Scheduling ([ppt](https://drive.google.com/file/d/1qimoYO0-qRSN3vQG7OrVB5QiXCzwVx62/view?usp=sharing)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://umich.skillport.com/skillportfe/main.action?assetid=RW$89427:_ss_book:166141#summary/BOOKS/RW$89427:_ss_book:166141) |
+| **Week 14** | **Resource Allocation** | | |
+| Mon <br> Apr 06 | Congestion Control and Queuing Disciplines ([ppt](https://drive.google.com/file/d/1MV2FIyRTYMrC2syS--fjEk7MxAjOfz4n/view?usp=sharing)) | | &bull; PD: [6.1 - 6.2 (Issues, Queuing)](https://book.systemsapproach.org/congestion.html) |
+| Wed <br> Apr 08 | Transport: Congestion Control (TCP) ([ppt](https://drive.google.com/file/d/1f_JwR3cQNe5VdIsc7heAo-isNnlQpK3w/view?usp=sharing)) | &bull; [Assignment 4](assignments/assignment4) `due Apr 27` | &bull; PD: [6.3 - 6.4 (TCP, ...)](https://book.systemsapproach.org/congestion.html) |
+| **Week 15** | **Network Applications and Emerging Usecases** | | |
+| Mon <br> Apr 13 | The World Wide Web (HTTP) ([ppt](https://drive.google.com/file/d/1P8y3rauEvKU-ebpNNj8rhczEZjVg7mAI/view?usp=sharing), [video](https://drive.google.com/file/d/1bFNyCOyGy_Akm5-XTChmtlYZ636sX_BN/view?usp=drive_link)) | | &bull; PD: [9.1.2 (World Wide Web)](https://book.systemsapproach.org/applications/traditional.html#world-wide-web-http) |
+| Wed <br> Apr 15 | Intelligent Networks: ML4Nets + Nets4ML ([ppt](https://drive.google.com/file/d/1l4UOSTtugjSBE5vGxr1mGd88ipO5nRJR/view?usp=sharing)) | | |
+| **Week 16** | **Final Review** | | |
+| Mon <br> Apr 20 | *Final Review* | | |
+| Wed <br> Apr 22 | *Study Day* | | |
+>>>>>>> e873023b6a1025791d270f6f3c71f6e6668816f7
 | **Week 17** | **Exam Week** | | |
-| Wed <br> Apr 29 | *Final Exam* | | |
+| Wed <br> Apr 29 | *Final Exam* <br> `10:30a-12:30p, STAMPS` |  | |
 
 ## Prerequisites
 
@@ -119,10 +160,17 @@ While EECS 482 is not required, students are expected to have strong proficiency
 ## Programming Assignments
 
 - [Assignment 0](assignments) `not graded`
+<<<<<<< HEAD
 - [Assignment 1]() `due TBD`
 - [Assignment 2]() `due TBD`
 - [Assignment 3]() `due TBD`
 - [Assignment 4]() `due TBD`
+=======
+- [Assignment 1](assignments/assignment1) `due Feb 09`
+- [Assignment 2](assignments/assignment2) `due Mar 16` ~~`Mar 13`~~
+- [Assignment 3](assignments/assignment3) `due Apr 06`
+- [Assignment 4](assignments/assignment4) `due Apr 27`
+>>>>>>> e873023b6a1025791d270f6f3c71f6e6668816f7
 
 ## Quizzes
 
@@ -137,7 +185,7 @@ While EECS 482 is not required, students are expected to have strong proficiency
 There will be one midterm and a final exam based on course content (lectures, discussions, and assignments).
 
 - Midterm Exam `on Feb 25 (during class)` 
-- Final Exam `on Apr 29 (during class)`
+- Final Exam `on Apr 29 (10:30a-12:30p, STAMPS)`
 
 > **Format:** in class, closed book
 
@@ -148,7 +196,6 @@ There will be one midterm and a final exam based on course content (lectures, di
 - Quizzes: 10%
 - Midterm exam: 20%
 - Final exam: 20%
-- Extra credit: 2%
 
 ## Policies
 
